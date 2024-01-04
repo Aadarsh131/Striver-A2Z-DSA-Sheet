@@ -15,7 +15,7 @@ int main()
   for (int i = 0; i < arr.size(); i++)
   {
     sum += arr[i];
-    if (!sumUpto[sum]) // if the key doesn't already exist, then add (this particular case is for 0 in the array)
+    if (!sumUpto[sum]) // if the key doesn't already exist, then add
     {
       sumUpto[sum] = i;
     }

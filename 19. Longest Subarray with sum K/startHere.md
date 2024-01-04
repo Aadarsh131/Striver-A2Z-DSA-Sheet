@@ -8,7 +8,7 @@
   <u>Time Complexity</u>: **O(n<sup>2</sup>)**  
   <u>Space Complexity</u>: **O(1)**
 
-- [Better Sol](./codes/betterSol.cpp)  
+- [Better Sol](./codes/betterSol.cpp)- using hashmap to store the keys
 
   <u>Time Complexity</u>: 
   - using `std::map`: **O(NlogN)**  
