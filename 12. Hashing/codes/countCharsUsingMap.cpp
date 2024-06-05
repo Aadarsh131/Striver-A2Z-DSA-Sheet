@@ -5,7 +5,7 @@ int main(){
   string s;
   cin >> s;
 
-  map<char,int> hash;
+  map<char,int> hash; //if map<int,in> hash, then the ascii value of chars would be stored as key
   for(int i=0 ; i<s.size();i++){
     hash[s[i]]++;
   }
