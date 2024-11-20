@@ -16,10 +16,13 @@ int main()
     while (temp--)
     {
       cout << j << " ";
-      if (j)
-        j = 0;
-      else
-        j = 1;
+      // if (j)
+      //   j = 0;
+      // else
+      //   j = 1;
+
+      //OR
+      j = 1 - j;
     }
     cout << endl;
   }

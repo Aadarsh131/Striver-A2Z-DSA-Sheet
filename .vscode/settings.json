@@ -1,16 +1,7 @@
 {
-  "files.associations": {
-    "iostream": "cpp",
-    "string": "cpp",
-    "*.tcc": "cpp",
-    "unordered_map": "cpp",
-    "functional": "cpp",
-    "ostream": "cpp",
-    "deque": "cpp",
-    "list": "cpp",
-    "unordered_set": "cpp",
-    "vector": "cpp"
-  },
-  "C_Cpp.errorSquiggles": "disabled",
-  "python.analysis.typeCheckingMode": "basic"
+    "files.associations": {
+        "*.json": "jsonc",
+        "*.cpp": "cpp",
+        "ostream": "cpp"
+    }
 }
