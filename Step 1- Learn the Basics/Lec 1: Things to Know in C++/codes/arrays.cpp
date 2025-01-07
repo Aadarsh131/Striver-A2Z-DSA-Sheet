@@ -16,5 +16,5 @@ int main()
   int arr3d[3][4]; // arr[row][col]
   arr3d[2][0] = 3;
   cout << arr3d[2][0] << endl;
-  cout << arr3d[9][0] << endl; // output- garbage value
+  cout << arr3d[9][0] << endl; // output- garbage value ( if arr3d would have defined outside the main fn then we would have seen the corresponding zero-value instead of the garbage)
 }

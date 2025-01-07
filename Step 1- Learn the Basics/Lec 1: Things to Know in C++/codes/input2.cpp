@@ -3,9 +3,18 @@
 using namespace std;
 
 int main(){
-  string sentence;
-  getline(cin,sentence); //will input until a "\n" (meaning it will not input anything in the next line)
-  cout << sentence;
+  string name;
+  cin >> name; //will store everything until "\n"
+  cout << name << "\n";
+
+  string sentence1;
+  getline(cin, sentence1, '.'); //will store until delim '.'
+  cout << sentence1 << "\n";
+
+  string sentence2;
+  getline(cin,sentence2); //will store everything until "\n" by default the delimiter is "\n"
+  cout << sentence2 << "\n";
+
 
   //Input- 
   // Hi, My Name is Aadarsh

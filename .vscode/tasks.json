@@ -16,6 +16,9 @@
             "problemMatcher": [
                 "$gcc"
             ],
+            "presentation": {
+                "reveal": "always"
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
